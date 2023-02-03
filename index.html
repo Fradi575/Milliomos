@@ -1,0 +1,27 @@
+﻿
+<head>
+<style type="text/css">
+.style1 {
+	text-align: center;
+}
+
+.nemLatszik{
+	display: none;
+}
+</style>
+</head>
+
+<h1 class="style1">Legyen Ön is milliomos!</h1>
+
+<button class="latszik" id="elkezd" onclick="kezdes()">Elkezd</button>
+
+<script type="text/javascript">
+
+const elkezd = document.getElementById("elkezd");
+
+function kezdes(){
+    elkezd.setAttribute("class", "nemLatszik");
+}
+
+
+</script>
