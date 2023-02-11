@@ -56,7 +56,7 @@
 <br>
 
 <div id="negyedik" class="nemLatszik">
-    <p>Ki nyerte a foci vb-t</p>
+    <p>Ki nyerte a foci vb-t?</p>
     <button onclick="negyJo()">Argentína</button>
     <button onclick="nullaForint()">Franciaország</button>
     <button onclick="nullaForint()">Horvátország</button>
@@ -78,11 +78,11 @@
 <br>
 
 <div id="hatodik" class="nemLatszik">
-    <p>Melyik állomás nem Cegléd és Budapest között helyezkedik el?</p>
-    <button onclick="kettoszazezer()">Monor</button>
-    <button onclick="hatJo()">Abony</button>
-    <button onclick="kettoszazezer()">Hosszúbere-Péteri</button>
+    <p>Melyik állomás nem Cegléd és Monor között helyezkedik el?</p>
     <button onclick="kettoszazezer()">Pilis</button>
+    <button onclick="hatJo()">Üllő</button>
+    <button onclick="kettoszazezer()">Albertirsa</button>
+    <button onclick="kettoszazezer()">Monorierdő</button>
 </div>
 
 <br>
@@ -122,11 +122,11 @@
 <br>
 
 <div id="tizedik" class="nemLatszik">
-    <p>Melyik a keresztény egyház legnagyobb ünnepe?</p>
-    <button onclick="tizJo()">Húsvét</button>
-    <button onclick="kettoszazezer()">Karácsony</button>
+    <p>Melyik nem parancsolt ünnep?</p>
+    <button onclick="tizJo()">Hamvazószerda</button>
+    <button onclick="kettoszazezer()">Újév</button>
     <button onclick="kettoszazezer()">Mindenszentek</button>
-    <button onclick="kettoszazezer()">Úrnapja</button>
+    <button onclick="kettoszazezer()">Vízkereszt</button>
 </div>
 
 <br>
@@ -238,7 +238,7 @@ function kettoszazezer(){
    setTimeout(() => { ketszazezer.play();
    					   }, 8000);
    					  
-   setTimeout(() => { alert("A válasz helytelen! 200 000 ft-ot nyertél, töltsd újra az oldalt!");
+   setTimeout(() => { alert("A válasz helytelen! 250 000 ft-ot nyertél, töltsd újra az oldalt!");
    					  }, 9000);
  
 }
@@ -291,7 +291,7 @@ function otJo(){
     setTimeout(() => { garantalt.play();
                        }, 8000);
 
-   setTimeout(() => { alert("Megvan a garantált 200 000 ft, ügyes vagy! Jöhet a 6.kérdés 300 000 ft-ért!");
+   setTimeout(() => { alert("Megvan a garantált 250 000 ft, ügyes vagy! Jöhet a 6.kérdés 500 000 ft-ért!");
    					  egyHatTizenegy.play();}, 10000);
    setTimeout(() => { hatTizZene.play(); hatodik.setAttribute("class", "latszik"); }, 16000);
 
@@ -308,7 +308,7 @@ function hatJo(){
    setTimeout(() => { helyesHatKilenc.play();
    					   }, 8000);
    					  
-   setTimeout(() => { alert("Ügyes! Jöhet a 7.kérdés 500 000 ft-ért!");
+   setTimeout(() => { alert("Ügyes! Jöhet a 7.kérdés 750 000 ft-ért!");
    					  letsPlay.play();}, 9000);
  
    					  
@@ -330,7 +330,7 @@ function hetJo(){
    setTimeout(() => { helyesHatKilenc.play();
    					   }, 8000);
    					  
-   setTimeout(() => { alert("Ügyes! Jöhet a 8.kérdés 800 000 ft-ért!");
+   setTimeout(() => { alert("Ügyes! Jöhet a 8.kérdés 1 000 000 ft-ért!");
    					  letsPlay.play();}, 9000);
  
    					  
@@ -370,7 +370,7 @@ function kilencJo(){
    setTimeout(() => { helyesHatKilenc.play();
    					   }, 8000);
    					  
-   setTimeout(() => { alert("Ügyes! Jöhet a 10.kérdés garantált 3 000 000 ft-ért!");
+   setTimeout(() => { alert("Ügyes! Jöhet a 10.kérdés garantált 2 000 000 ft-ért!");
    					  letsPlay.play();}, 9000);
  
    					  
@@ -391,7 +391,7 @@ function tizJo(){
    					   }, 10000); 
    					   
     					  
-   setTimeout(() => { alert("Ügyes! Megvan a garantált 3 000 000 ft! Jöhet az 5 000 000-s kérdés!"); egyHatTizenegy.play(); }, 16000);
+   setTimeout(() => { alert("Ügyes! Megvan a garantált 2 000 000 ft! Jöhet az 5 000 000-s kérdés!"); egyHatTizenegy.play(); }, 16000);
    
    setTimeout(() => { tizenegyTizennegy.play(); tizenegyedik.setAttribute("class", "latszik"); }, 21000);
 
@@ -514,7 +514,7 @@ function harommillio(){
    setTimeout(() => { ketszazezer.play();
    					   }, 8000);
    					  
-   setTimeout(() => { alert("A válasz helytelen! 3 000 000 ft-ot nyertél, töltsd újra az oldalt!");
+   setTimeout(() => { alert("A válasz helytelen! 2 000 000 ft-ot nyertél, töltsd újra az oldalt!");
    					  }, 9000);
 
 }
@@ -531,7 +531,7 @@ function pekk(){
    setTimeout(() => { uccsoRossz.play();
    					   }, 8000);
    					  
-   setTimeout(() => { alert("A válasz helytelen! 3 000 000 ft-ot nyertél, töltsd újra az oldalt!");
+   setTimeout(() => { alert("A válasz helytelen! 2 000 000 ft-ot nyertél, töltsd újra az oldalt!");
    					  }, 9000);
 
 
