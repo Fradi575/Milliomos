@@ -138,13 +138,14 @@ Kellemes játékot kívánok mindenkinek!</p>
 <br>
 
 <div id="hatodik" class="nemLatszik">
-    <button>Melyik város nem Debrecen és Kisvárda között van?</button>
+	<button>Melyik város nem határátkelő?</button>
     <br>
     <br>
-    <button onclick="kettoszazezer()">Téglás</button>
-    <button onclick="hatJo()">Fényestlike</button>
-    <button onclick="kettoszazezer()">Kék</button>
-    <button onclick="kettoszazezer()">Pátroha</button>
+    <button onclick="kettoszazezer()">Zajta</button>
+    <button onclick="kettoszazezer()">Lőkösháza</button>
+    <button onclick="hatJo()">Tuzsér</button>
+    <button onclick="kettoszazezer()">Szob</button>
+ 
 </div>
 
 <br>
@@ -153,13 +154,13 @@ Kellemes játékot kívánok mindenkinek!</p>
 <br>
 
 <div id="hetedik" class="nemLatszik">
-    <button>Melyik város JNSZ vármegye legnagyobb közigazgatás területű városa?</button>
+    <button>Ki a legmagasabb az alábbi ifis fiútagok közül?</button>
     <br>
     <br>
-    <button onclick="kettoszazezer()">Szolnok</button>
-    <button onclick="kettoszazezer()">Jászberény</button>
-    <button onclick="kettoszazezer()">Kisújszállás</button>
-    <button onclick="hetJo()">Karcag</button>
+    <button onclick="kettoszazezer()">Laci</button>
+    <button onclick="kettoszazezer()">Bandi</button>
+    <button onclick="kettoszazezer()">Ábel</button>
+    <button onclick="hetJo()">Imi</button>
 </div>
 
 <br>
@@ -168,13 +169,15 @@ Kellemes játékot kívánok mindenkinek!</p>
 <br>
 
 <div id="nyolcadik" class="nemLatszik">
-    <button>Melyik város nem határátkelő?</button>
+    
+<button>Melyik nem megyeszékhely?</button>
     <br>
     <br>
-    <button onclick="kettoszazezer()">Zajta</button>
-    <button onclick="kettoszazezer()">Lőkösháza</button>
-    <button onclick="nyolcJo()">Tuzsér</button>
-    <button onclick="kettoszazezer()">Záhony</button>
+    <button onclick="kettoszazezer()">Székesfehérvár</button>
+    <button onclick="nyolcJo()">Esztergom</button>
+    <button onclick="kettoszazezer()">Tatabánya</button>
+    <button onclick="kettoszazezer()">Győr</button>
+    
 </div>
 
 <br>
@@ -183,13 +186,13 @@ Kellemes játékot kívánok mindenkinek!</p>
 <br>
 
 <div id="kilencedik" class="nemLatszik">
-    <button>Melyik nem megyeszékhely?</button>
+    <button>Melyik állomás rendelkezik büfével a felsoroltak közül?</button>
     <br>
     <br>
-    <button onclick="kettoszazezer()">Székesfehérvár</button>
-    <button onclick="kilencJo()">Esztergom</button>
-    <button onclick="kettoszazezer()">Tatabánya</button>
-    <button onclick="kettoszazezer()">Győr</button>
+    <button onclick="kilencJo()">Törökszentmiklós</button>
+    <button onclick="kettoszazezer()">Karcag</button>
+    <button onclick="kettoszazezer()">Hajdúszoboszló</button>
+    <button onclick="kettoszazezer()">Kisújszállás</button>
 </div>
 
 <br>
@@ -197,14 +200,16 @@ Kellemes játékot kívánok mindenkinek!</p>
 <br>
 <br>
 
+
+
 <div id="tizedik" class="nemLatszik">
-    <button>Melyik állomás rendelkezik büfével a felsoroltak közül?</button>
+    <button>Hogyan helyes az elválasztás?</button>
     <br>
     <br>
-    <button onclick="tizJo()">Törökszentmiklós</button>
-    <button onclick="kettoszazezer()">Karcag</button>
-    <button onclick="kettoszazezer()">Hajdúszoboszló</button>
-    <button onclick="kettoszazezer()">Kisújszállás</button>
+    <button onclick="tizJo()">Ma-dách-csal</button>
+    <button onclick="kettoszazezer()">Ma-dách-hal</button>
+    <button onclick="kettoszazezer()">Ma-dách-chal</button>
+    <button onclick="kettoszazezer()">Ma-dá-chal</button>
 </div>
 
 <br>
@@ -263,7 +268,7 @@ Kellemes játékot kívánok mindenkinek!</p>
     <br>
     <button onclick="harommillio()">Hajdúszoboszló</button>
     <button onclick="tizennegyJo()">Hajdúböszörmény</button>
-    <button onclick="harommillio()">Karcag</button>
+    <button onclick="harommillio()">Miskolc</button>
     <button onclick="harommillio()">Szeged</button>
 </div>
 
@@ -348,8 +353,8 @@ function egyJo(){
     elsoOtZene.currentTime=279;
     setTimeout(() => { elsoNegyJo.play();
 	                   elsoOtZene.currentTime=0;
-                       }, 4000);
-	setTimeout(() => { elsoOtZene.play(); masodik.setAttribute("class", "latszik"); }, 5000);
+                       }, 3000);
+	setTimeout(() => { elsoOtZene.play(); masodik.setAttribute("class", "latszik"); }, 4000);
 
     
 }
@@ -358,8 +363,8 @@ function kettoJo(){
     elsoOtZene.currentTime=279;
     setTimeout(() => { elsoNegyJo.play();
 	                   elsoOtZene.currentTime=0;
-                       }, 4000);
-	setTimeout(() => { elsoOtZene.play(); harmadik.setAttribute("class", "latszik"); }, 5000);
+                       }, 3000);
+	setTimeout(() => { elsoOtZene.play(); harmadik.setAttribute("class", "latszik"); }, 4000);
 
     
 }
@@ -368,8 +373,8 @@ function haromJo(){
     elsoOtZene.currentTime=279;
     setTimeout(() => { elsoNegyJo.play();
 	                   elsoOtZene.currentTime=0;
-                       }, 4000);
-	setTimeout(() => { elsoOtZene.play(); negyedik.setAttribute("class", "latszik"); }, 5000);
+                       }, 3000);
+	setTimeout(() => { elsoOtZene.play(); negyedik.setAttribute("class", "latszik"); }, 4000);
 
    
 }
@@ -378,8 +383,8 @@ function negyJo(){
     elsoOtZene.currentTime=279;
     setTimeout(() => { elsoNegyJo.play();
 	                   elsoOtZene.currentTime=0;
-                       }, 4000);
-	setTimeout(() => { elsoOtZene.play(); otodik.setAttribute("class", "latszik"); }, 5000);
+                       }, 3000);
+	setTimeout(() => { elsoOtZene.play(); otodik.setAttribute("class", "latszik"); }, 4000);
 
    
 }
@@ -401,18 +406,18 @@ function hatJo(){
                        }, 2000);
 
    setTimeout(() => { megjelol.currentTime=30;
-   					   }, 7000);
+   					   }, 10000);
    					   
    setTimeout(() => { helyesHatKilenc.play();
-   					   }, 8000);
+   					   }, 11000);
    					  
    setTimeout(() => { alert("Ügyes! Jöhet a 7.kérdés 750 000 ft-ért!");
-   					  letsPlay.play();}, 9000);
+   					  letsPlay.play();}, 12000);
  
    					  
    					  
    					  
-   setTimeout(() => { hatTizZene.play(); hetedik.setAttribute("class", "latszik");}, 15000);
+   setTimeout(() => { hatTizZene.play(); hetedik.setAttribute("class", "latszik");}, 18000);
 
 }
 
@@ -423,16 +428,16 @@ function hetJo(){
                        }, 2000);
 
    setTimeout(() => { megjelol.currentTime=30;
-   					   }, 7000);
+   					   }, 16000);
    					   
    setTimeout(() => { helyesHatKilenc.play();
-   					   }, 8000);
+   					   }, 17000);
    					  
    setTimeout(() => { alert("Ügyes! Jöhet a 8.kérdés 1 000 000 ft-ért!");
-   					  letsPlay.play();}, 9000);
+   					  letsPlay.play();}, 18000);
  
    					  
-   setTimeout(() => { hatTizZene.play(); nyolcadik.setAttribute("class", "latszik");}, 15000);
+   setTimeout(() => { hatTizZene.play(); nyolcadik.setAttribute("class", "latszik");}, 24000);
 
 }
 
@@ -443,16 +448,16 @@ function nyolcJo(){
                        }, 2000);
 
    setTimeout(() => { megjelol.currentTime=30;
-   					   }, 7000);
+   					   }, 10000);
    					   
    setTimeout(() => { helyesHatKilenc.play();
-   					   }, 8000);
+   					   }, 11000);
    					  
    setTimeout(() => { alert("Ügyes! Jöhet a 9.kérdés 1 500 000 ft-ért!");
-   					  letsPlay.play();}, 9000);
+   					  letsPlay.play();}, 12000);
  
    					  
-   setTimeout(() => { hatTizZene.play(); kilencedik.setAttribute("class", "latszik");}, 15000);
+   setTimeout(() => { hatTizZene.play(); kilencedik.setAttribute("class", "latszik");}, 18000);
 
 }
 
@@ -463,16 +468,16 @@ function kilencJo(){
                        }, 2000);
 
    setTimeout(() => { megjelol.currentTime=30;
-   					   }, 7000);
+   					   }, 10000);
    					   
    setTimeout(() => { helyesHatKilenc.play();
-   					   }, 8000);
+   					   }, 11000);
    					  
    setTimeout(() => { alert("Ügyes! Jöhet a 10.kérdés garantált 2 000 000 ft-ért!");
-   					  letsPlay.play();}, 9000);
+   					  letsPlay.play();}, 12000);
  
    					  
-   setTimeout(() => { hatTizZene.play(); tizedik.setAttribute("class", "latszik");}, 15000);
+   setTimeout(() => { hatTizZene.play(); tizedik.setAttribute("class", "latszik");}, 18000);
 
 }
 
@@ -483,15 +488,15 @@ function tizJo(){
                        }, 2000);
 
    setTimeout(() => { megjelol.currentTime=30;
-   					   }, 9000);
+   					   }, 12000);
    					   
    setTimeout(() => { garantalt.play();
-   					   }, 10000); 
+   					   }, 13000); 
    					   
     					  
-   setTimeout(() => { alert("Ügyes! Megvan a garantált 2 000 000 ft! Jöhet az 5 000 000-s kérdés!"); egyHatTizenegy.play(); }, 16000);
+   setTimeout(() => { alert("Ügyes! Megvan a garantált 2 000 000 ft! Jöhet az 5 000 000-s kérdés!"); egyHatTizenegy.play(); }, 19000);
    
-   setTimeout(() => { tizenegyTizennegy.play(); tizenegyedik.setAttribute("class", "latszik"); }, 21000);
+   setTimeout(() => { tizenegyTizennegy.play(); tizenegyedik.setAttribute("class", "latszik"); }, 24000);
 
 }
 
@@ -502,18 +507,18 @@ function tizenegyJo(){
                        }, 2000);
 
    setTimeout(() => { megjelol.currentTime=30;
-   					   }, 7000);
+   					   }, 10000);
    					   
    setTimeout(() => { tizenegyTizennegyJo.play();
-   					   }, 8000);
+   					   }, 11000);
    					  
    setTimeout(() => { alert("Ügyes! Jöhet a 12.kérdés 10 000 000 ft-ért!");
-   					  letsPlay.play();}, 9000);
+   					  letsPlay.play();}, 12000);
  
    					  
    					  
    					  
-   setTimeout(() => { tizenegyTizennegy.play(); tizenkettedik.setAttribute("class", "latszik");}, 15000);
+   setTimeout(() => { tizenegyTizennegy.play(); tizenkettedik.setAttribute("class", "latszik");}, 18000);
 
 }
 
@@ -524,18 +529,18 @@ function tizenkettoJo(){
                        }, 2000);
 
    setTimeout(() => { megjelol.currentTime=30;
-   					   }, 7000);
+   					   }, 10000);
    					   
    setTimeout(() => { tizenegyTizennegyJo.play();
-   					   }, 8000);
+   					   }, 11000);
    					  
    setTimeout(() => { alert("Ügyes! Jöhet a 13.kérdés 15 000 000 ft-ért!");
-   					  letsPlay.play();}, 9000);
+   					  letsPlay.play();}, 12000);
  
    					  
    					  
    					  
-   setTimeout(() => { tizenegyTizennegy.play(); tizenharmadik.setAttribute("class", "latszik");}, 15000);
+   setTimeout(() => { tizenegyTizennegy.play(); tizenharmadik.setAttribute("class", "latszik");}, 18000);
 
 }
 
@@ -545,18 +550,18 @@ function tizenharomJo(){
                        }, 2000);
 
    setTimeout(() => { megjelol.currentTime=30;
-   					   }, 7000);
+   					   }, 10000);
    					   
    setTimeout(() => { tizenegyTizennegyJo.play();
-   					   }, 8000);
+   					   }, 11000);
    					  
    setTimeout(() => { alert("Ügyes! Jöhet a 14.kérdés 25 000 000 ft-ért!");
-   					  letsPlay.play();}, 9000);
+   					  letsPlay.play();}, 12000);
  
    					  
    					  
    					  
-   setTimeout(() => { tizenegyTizennegy.play(); tizennegyedik.setAttribute("class", "latszik");}, 15000);
+   setTimeout(() => { tizenegyTizennegy.play(); tizennegyedik.setAttribute("class", "latszik");}, 18000);
 
 }
 
@@ -566,18 +571,18 @@ function tizennegyJo(){
                        }, 2000);
 
    setTimeout(() => { megjelol.currentTime=30;
-   					   }, 7000);
+   					   }, 10000);
    					   
    setTimeout(() => { tizenegyTizennegyJo.play();
-   					   }, 8000);
+   					   }, 11000);
    					  
    setTimeout(() => { alert("Ügyes! Jöhet az uccsó kérdés a főnyereményt érő 50 000 000 ft-ért");
-   					  letsPlay.play();}, 9000);
+   					  letsPlay.play();}, 12000);
  
    					  
    					  
    					  
-   setTimeout(() => { uccsoKerdes.play(); tizenotodik.setAttribute("class", "latszik");}, 15000);
+   setTimeout(() => { uccsoKerdes.play(); tizenotodik.setAttribute("class", "latszik");}, 18000);
 
 }
 
@@ -589,13 +594,13 @@ function gyozelem(){
                        }, 2000);
 
    setTimeout(() => { megjelol.currentTime=30;
-   					   }, 7000);
+   					   }, 12000);
    					   
    setTimeout(() => { fodij.play();
-   					   }, 8000);
+   					   }, 13000);
    					  
    setTimeout(() => { alert("Gratulálunk! Megnyerted a főnyereményt, az 50 000 000 ft-ot!");
-   					  }, 9000);
+   					  }, 14000);
  
    	
 }
